@@ -1,7 +1,7 @@
 body {
     font-family: "helveticaneue", "Arial", sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     background-image: url(https://i.imgur.com/PHXUPW8.jpg);
     background-attachment: fixed;
 }
@@ -13,20 +13,22 @@ h2 {
     font-weight: bold;
 }
 .banner {
-    align-items: flex-right;
+    display: block;
+    margin-left: 35em;
+    margin-right: 1px;
+    width: 2em;
+    height: 1em;
+}
 }
 .column {
     display: grid;
     grid-template-columns: 10% 10% 10% 10%;
-    grid-column-gap: 1em;
+    
 }
 .p1 {
-    text-align: justify;
+    text-align: left;
     font-size: 2em;
     font-weight: bold;
-}
-.banner {
-    text-align: right;
 }
 .row {
     grid-template-rows: 1em;
