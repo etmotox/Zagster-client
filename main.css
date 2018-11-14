@@ -1,10 +1,19 @@
 body {
     font-family: "helveticaneue", "Arial", sans-serif;
-    margin-left: 1px;
+    margin-left: 5%;
     background-image: url(https://i.imgur.com/PHXUPW8.jpg)
 }
-
 h2 {
     font-size: 4em;
     font-weight: bold;
+}
+.banner {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
 }
