@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: "helveticaneue", "Arial", sans-serif;
     margin-left: 3%;
     margin-right: 3%;
@@ -11,13 +11,6 @@ h1 {
 h2 {
     font-size: 3em;
     font-weight: bold;
-}
-.banner {
-    display: block;
-    margin-left: 35em;
-    margin-right: 1px;
-    width: 2em;
-    height: 1em;
 }
 }
 .column {
