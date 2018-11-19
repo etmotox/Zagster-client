@@ -9,67 +9,33 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
     <script src="main.js"></script>
 </head>
 <body>  
 <h1>Zagster Bike Share in Bend</h1>
     <h2>Total Zagster Rides from 2016 - 2018</h2>
     <h2 class="rideCount"></h2>
-    
-    <div class="banner">
-        <a href="https://datavizcatalogue.com/methods/nightingale_rose_chart.html"><img src="https://datavizcatalogue.com/methods/images/top_images/SVG/nightingale_rose_chart.svg" alt="mock data pic"></a>
-    </div>
-<p class="p1">Number of rides per year</p>
-    <div class="container">
-        <div class="column">
-            <p id="2016">2016</p>
-            <p id="2017">2017</p>
-            <p id="2018">2018</p>
-            <p class="rideCount">All</p>
-        </div>
-    </div>
-<p class="p1">Number of rides per month</p>
+    <canvas id="myChart" width="400" height="400"></canvas>
 
-<div class="container">
-    <div class="row">
-    <div class="month">
-        <p>January</p>
+<p class="p1">Number of rides in 2017 per month</p>
+    <div class="container">
+        <div class="row">
+            <p>January</p>
+            <p>February</p>
+            <p>March</p>
+            <p>April</p>
+            <p>May</p>
+            <p>June</p>
+            <p>July</p>
+            <p>August</p>
+            <p>September</p>
+            <p>October</p>
+            <p>November</p>
+            <p>December</p>
+        </div>
+            <p class="rideCount">All</p>
     </div>
-    <div class="month">
-        <p>February</p>
-    </div>
-    <div class="month">
-        <p>March</p>
-    </div>
-    <div class="month">
-        <p>April</p>
-    </div>
-    <div class="month">
-        <p>May</p>
-    </div>
-    <div class="month">
-        <p>June</p>
-    </div>
-    <div class="month">
-        <p>July</p>
-    </div>
-    <div class="month">
-        <p>August</p>
-    </div>
-    <div class="month">
-        <p>September</p>
-    </div>
-    <div class="month">
-        <p>October</p>
-    </div>
-    <div class="month">
-        <p>November</p>
-    </div>
-    <div class="month">
-        <p>December</p>
-    </div>
-</div>
-</div>
 
 </body>
 </html>
